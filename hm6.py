@@ -31,7 +31,7 @@ def normalize(str) -> str:
         if ext in j:
             return i
     return "Other"
-
+ 
 
 def movefile(file:Path, category:str, root:Path) -> None:
     target = root.joinpath(category)
