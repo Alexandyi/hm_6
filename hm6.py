@@ -17,7 +17,7 @@ types={"Audio": [".mp3", ".ogg", ".wav", ".amr"],
        "Video":[".avi",".mp4",".mov",".mkv"],
        "Foto":[".jpej",".png",".jpg",".svg"]         
        }
-
+ 
 def normalize(str) -> str:
     ext = str.translate(dct)
     for i in ext:
